@@ -1,10 +1,10 @@
-<?php require('views/header.php'); ?>
+<?php require('views/header.php'); session_start();?>
 <main>
     <div class="body">
 		<!--Navigation was here -->
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
-					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'responsiveLevels': [4096,1200,992,500], 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
+					<!--div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'responsiveLevels': [4096,1200,992,500], 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}"-->
 						<ul>
 							<li data-transition="fade" class="slide-overlay slide-overlay-level-8">
 								<img src="content/img/slides/slide-corporate-5-1.jpg"
@@ -113,9 +113,9 @@
 					<div class="row py-5 my-5">
 						<div class="col-lg-4 appear-animation" data-appear-animation="fadeInRightShorter">
 							<h2 class="font-weight-normal text-6 line-heigh-2 mb-4"><strong class="font-weight-extra-bold">Who</strong> We Are</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id valorem ipsum dolor sit amet, consectetur adipiscinLorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-							<p>Phasellus blandit massa enim. Nullam id varius elit. blandit massa enimariusius.</p>
-							<a href="#" class="learn-more text-color-primary font-weight-semibold text-2">VIEW MORE<i class="pl-2 fas fa-chevron-right text-2"></i></a>
+							<p>Our company started from a shared experience of finding fashion inspirations on the internet. This was the case with four to seven t-shirts any of us owned at any point in time.</p>
+							<p>Our goal is to provide a community where you can find new fashion inspirations with the things in your closet. This is Clothing in Style - Four to Seven Tee. Or CIS 4270 for short.</p>
+							<a href="?ctlr=home&amp;action=aboutUs" class="learn-more text-color-primary font-weight-semibold text-2">VIEW MORE<i class="pl-2 fas fa-chevron-right text-2"></i></a>
 						</div>
 						<div class="col-lg-8 mt-5 mt-lg-0">
 							<div class="row">
@@ -125,19 +125,19 @@
 											<i class="icon-user-following icons"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="font-weight-bold mb-2">Customer Support</h4>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+											<h4 class="font-weight-bold mb-2">Kwan Tai (Quentin) Ng</h4>
+											<p class="mb-0">Back end designer and user authentication lead. Likes fashion a lot and likes to experiment.</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6 mb-4 mb-lg-5 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
 									<div class="feature-box feature-box-style-2">
 										<div class="feature-box-icon">
-											<i class="icon-layers icons"></i>
+											<i class="icon-user-following icons"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="font-weight-bold mb-2">Sliders</h4>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+											<h4 class="font-weight-bold mb-2">Wesley Nguyen</h4>
+											<p class="mb-0">Front end designer and validations lead. Likes comfortable, but hip and trendy clothes.</p>
 										</div>
 									</div>
 								</div>
@@ -147,22 +147,22 @@
 								<div class="col-lg-6 mb-4 mb-lg-0">
 									<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="800">
 										<div class="feature-box-icon">
-											<i class="icon-star icons"></i>
+											<i class="icon-user-following icons"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="font-weight-bold mb-2">Icons</h4>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing metus elit. Quisque rutrum pellentesque imperdiet.</p>
+											<h4 class="font-weight-bold mb-2">Michelle Tran</h4>
+											<p class="mb-0">Front end designer and UI lead. Tries to be experimental with fashion, but ends up choosing comfy clothes instead.</p>
 										</div>
 									</div>
 								</div>
 								<div class="col-lg-6">
 									<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="600">
 										<div class="feature-box-icon">
-											<i class="icon-drop icons"></i>
+											<i class="icon-user-following icons"></i>
 										</div>
 										<div class="feature-box-info">
-											<h4 class="font-weight-bold mb-2">Colors</h4>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla.</p>
+											<h4 class="font-weight-bold mb-2">Vincent Vu</h4>
+											<p class="mb-0">Back end designer and security lead. Prefers comfy clothes most of the time, cause form over fashion.</p>
 										</div>
 									</div>
 								</div>
@@ -171,9 +171,9 @@
 					</div>
 				</div>
 
-				<hr>
+				<!--hr-->
 
-				<section class="section bg-color-light border-0 pb-0 m-0">
+				<!--section class="section bg-color-light border-0 pb-0 m-0">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-12 text-center appear-animation" data-appear-animation="fadeInUpShorter">
@@ -273,9 +273,9 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section-->
 
-				<div class="container">
+				<!--div class="container">
 					<div class="row py-5 my-5">
 						<div class="col">
 
@@ -308,9 +308,9 @@
 
 						</div>
 					</div>
-				</div>
+				</div-->
 
-				<section class="section section-height-3 section-text-light bg-color-primary border-0 m-0 appear-animation" data-appear-animation="fadeIn">
+				<!--section class="section section-height-3 section-text-light bg-color-primary border-0 m-0 appear-animation" data-appear-animation="fadeIn">
 					<div class="container">
 						<div class="row">
 							<div class="col appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
@@ -347,9 +347,9 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</section-->
 
-				<div class="container">
+				<!--div class="container">
 					<div class="row pt-5 mt-4">
 						<div class="col">
 							<h2 class="font-weight-normal text-6 mb-4"><strong class="font-weight-extra-bold">Latest</strong> Posts</h2>
@@ -425,7 +425,7 @@
 							</article>
 						</div>
 					</div>
-				</div>
+				</div-->
 			</div>
 </main>
 <?php require('views/footer.php');

@@ -1,8 +1,14 @@
 <?php require('views/header.php'); ?>
+<?php session_start();?>
+
 <main>
 		<div class="body">
 			<div role="main" class="main">
-
+			<?php 
+				if($delay === true){
+					sleep(1);
+				}
+			?>
 				<section class="page-header page-header-classic page-header-sm">
 					<div class="container">
 						<div class="row">
@@ -31,12 +37,20 @@
 											<div class="box-content">
 												<h4 class="color-primary font-weight-semibold text-4 text-uppercase mb-3">I'm a Returning Customer</h4>
 												<form action="index.php" id="frmSignIn" method="post" class="needs-validation">
+													<div class="error" style="color:red">
+														<?php 
+															if(isset($logErr)){
+																foreach($logErr as $msg){
+																	echo $msg;
+																} 
+															}?>
+													</div>
 													<div class="form-row">
 														<input type="hidden" name="ctlr" value="user">
 														<input type="hidden" name="action" value="login">
 														<div class="form-group col">
 															<label class="font-weight-bold text-dark text-2">E-mail Address</label>
-															<input name="email" type="text" value="" class="form-control form-control-lg" required>
+															<input name="userEmail" type="text" value="" class="form-control form-control-lg" required>
 														</div>
 													</div>
 													<div class="form-row">
@@ -66,12 +80,30 @@
 											<div class="box-content">
 												<h4 class="color-primary font-weight-semibold text-4 text-uppercase mb-3">Register An Account</h4>
 												<form action="index.php" id="frmSignUp" method="post" class="">
+													<div class="error" style="color:red">
+														<?php 
+															if($regErr){
+															foreach($regErr as $msg){
+																echo $msg;
+															} 
+														}?>
+													</div>													
 													<input type="hidden" name="ctlr" value="user">
 													<input type="hidden" name="action" value="register">
 													<div class="form-row">
 														<div class="form-group col">
 															<label class="font-weight-bold text-dark text-2">E-mail Address</label>
-															<input name="email" type="email" value="" class="form-control form-control-lg" required>
+															<input name="userEmail" type="email" value="" class="form-control form-control-lg" required>
+														</div>
+													</div>
+													<div class="form-row">
+														<div class="form-group col">
+															<label class="font-weight-bold text-dark text-2">First Name</label>
+															<input name="firstName" type="text" value="" class="form-control form-control-lg" required>
+														</div>
+														<div class="form-group col">
+															<label class="font-weight-bold text-dark text-2">Last Name</label>
+															<input name="lastName" type="text" value="" class="form-control form-control-lg" required>
 														</div>
 													</div>
 													<div class="form-row">
@@ -87,12 +119,12 @@
 													<div class="form-row">
 														<div class="form-group col-lg-9">
 															<div class="custom-control custom-checkbox">
-																<input type="checkbox" class="custom-control-input" id="terms">
+																<input type="checkbox" class="custom-control-input" id="terms" required>
 																<label class="custom-control-label text-2" for="terms">I have read and agree to the <a href="#">terms of service</a></label>
 															</div>
 														</div>
 														<div class="form-group col-lg-3">
-															<input type="submit" value="Register" class="btn btn-primary btn-modern float-right" data-loading-text="Loading...">
+															<input type="submit" name="submitbtn" value="Register" class="btn btn-primary btn-modern float-right" data-loading-text="Loading...">
 														</div>
 													</div>
 												</form>

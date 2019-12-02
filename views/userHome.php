@@ -1,23 +1,28 @@
-<?php require('views/header.php'); ?>
+<?php 
+		require('views/header.php'); 
+		session_start();
+?>
 <div class="body">
 			<div role="main" class="main">
 
-				<section class="page-header page-header-modern bg-color-light-scale-1 page-header-md">
+				<section class="page-header page-header-modern bg-color-dark-scale-1 page-header-md">
 					<div class="container">
 						<div class="row">
 
 							<div class="col-md-12 align-self-center p-static order-2 text-center">
 
-								<h1 class="text-dark font-weight-bold text-8">Grid 3 Columns</h1>
-<span class="sub-title text-dark">Check out our Latest News!</span>
+								<h1 class="text-light font-weight-bold text-8">CIS 4270</h1>
+								<span class="sub-title text-light">Welcome <?php echo $_SESSION['userName'] ?>!</span>
+
+								<span class="sub-title text-light">Let's find some fashion inspos today</span>
 							</div>
 
 							<div class="col-md-12 align-self-center order-1">
 
-								<ul class="breadcrumb d-block text-center">
+								<!--ul class="breadcrumb d-block text-center">
 									<li><a href="#">Home</a></li>
 									<li class="active">Blog</li>
-								</ul>
+								</ul-->
 							</div>
 						</div>
 					</div>
@@ -35,7 +40,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-1.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-1.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -59,7 +64,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-2.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-2.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -83,7 +88,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-3.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-3.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -107,7 +112,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-4.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-4.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -131,7 +136,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-5.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-5.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -155,7 +160,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-6.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-6.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -179,7 +184,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-7.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-7.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -203,7 +208,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-8.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-8.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
@@ -227,7 +232,7 @@
 										<article class="post post-medium border-0 pb-0 mb-5">
 											<div class="post-image">
 												<a href="blog-post.html">
-													<img src="img/blog/medium/blog-9.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
+													<img src="content/img/blog/medium/blog-9.jpg" class="img-fluid img-thumbnail img-thumbnail-no-borders rounded-0" alt="" />
 												</a>
 											</div>
 
