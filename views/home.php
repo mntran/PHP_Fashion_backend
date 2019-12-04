@@ -4,10 +4,10 @@
 		<!--Navigation was here -->
 			<div role="main" class="main">
 				<div class="slider-container rev_slider_wrapper" style="height: 700px;">
-					<!--div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'responsiveLevels': [4096,1200,992,500], 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}"-->
+					<div id="revolutionSlider" class="slider rev_slider" data-version="5.4.8" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 700, 'responsiveLevels': [4096,1200,992,500], 'navigation' : {'arrows': { 'enable': false }, 'bullets': {'enable': true, 'style': 'bullets-style-1', 'h_align': 'center', 'v_align': 'bottom', 'space': 7, 'v_offset': 70, 'h_offset': 0}}}">
 						<ul>
 							<li data-transition="fade" class="slide-overlay slide-overlay-level-8">
-								<img src="content/img/slides/slide-corporate-5-1.jpg"
+								<img src="content/img/slides/sign.jpg"
 									alt="Slide Coporate-5-1"
 									data-bgposition="center center"
 									data-bgfit="cover"
@@ -41,7 +41,7 @@
 									data-x="center"
 									data-y="center" data-voffset="['-60','-60','-60','-85']"
 									data-fontsize="['50','50','50','90']"
-									data-lineheight="['55','55','55','95']">PORTO HTML TEMPLATE</div>
+									data-lineheight="['55','55','55','95']">CIS 4270</div>
 
 								<div class="tp-caption font-weight-light text-center"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -49,13 +49,13 @@
 									data-y="center" data-voffset="['-10','-10','-10','-25']"
 									data-fontsize="['18','18','18','50']"
 									data-lineheight="['29','29','29','40']"
-									style="color: #b5b5b5;">Trusted by over <strong>30,000</strong> satisfied users.</div>
+									style="color: #b5b5b5;">Clothing in  <strong>Style Four to</strong> Seven Tee</div>
 
 								<a class="tp-caption btn btn-light-2 btn-outline font-weight-semibold"
 									data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-hash
 									data-hash-offset="85"
-									href="#main"
+									href="?ctlr=user&amp;action=login"
 									data-x="center" data-hoffset="0"
 									data-y="center" data-voffset="['70','70','70','45']"
 									data-whitespace="nowrap"
@@ -67,7 +67,7 @@
 
 							</li>
 							<li class="slide-overlay" data-transition="fade">
-								<img src="content/img/slides/slide-corporate-1-2.jpg"
+								<img src="content/img/slides/lake.jpg"
 									alt=""
 									data-bgposition="center center"
 									data-bgfit="cover"
@@ -80,7 +80,7 @@
 									data-y="center" data-voffset="['-55','-55','-55','-55']"
 									data-fontsize="['50','50','50','90']"
 									data-lineheight="['55','55','55','95']"
-									data-letterspacing="-1">AWESOME DESIGNS</h1>
+									data-letterspacing="-1">HELPING FASHIONISTAS</h1>
 
 								<div class="tp-caption font-weight-light text-center"
 									data-frames='[{"from":"opacity:0;","speed":300,"to":"o:1;","delay":2000,"split":"chars","splitdelay":0.05,"ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
@@ -88,13 +88,13 @@
 									data-y="center" data-voffset="['-5','-5','-5','15']"
 									data-fontsize="['18','18','18','35']"
 									data-lineheight="['20','20','20','40']"
-									style="color: #b5b5b5;">Porto is a huge success in the of one of the world’s largest MarketPlace.</div>
+									style="color: #b5b5b5;">Take your fashion game to the next level.</div>
 
 								<a class="tp-caption btn btn-light-2 btn-outline font-weight-semibold"
 									data-frames='[{"delay":2500,"speed":2000,"frame":"0","from":"opacity:0;y:50%;","to":"o:1;y:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
 									data-hash
 									data-hash-offset="85"
-									href="#main"
+									href="?ctlr=user&amp;action=login"
 									data-x="center" data-hoffset="0"
 									data-y="center" data-voffset="['65','65','65','105']"
 									data-whitespace="nowrap"

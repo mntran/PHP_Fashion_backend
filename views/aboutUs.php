@@ -54,7 +54,7 @@
                     <div class="col-md-6 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="1000">
                         <div class="owl-carousel owl-theme nav-inside mb-0" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 6000, 'loop': true}">
                             <div>
-                                <img alt="" class="img-fluid" src="content/img/generic/generic-corporate-3-2-full.jpg">
+                                <img alt="" class="img-fluid" src="content/img/generic/blue.jpg">
                             </div>
                             <!--div>
                                 <img alt="" class="img-fluid" src="content/img/generic/generic-corporate-3-3-full.jpg">
@@ -65,7 +65,7 @@
                         <div class="overflow-hidden mb-2">
                             <h2 class="text-color-dark font-weight-normal text-5 mb-0 pt-0 mt-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="1200">Who <strong class="font-weight-extra-bold">We Are</strong></h2>
                         </div>
-                        <p class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Our company started from a shared experience of finding fashion inspirations on the internet. This was the case with four to seven t-shirts any of us owned at any point in time.</p>
+                        <p class="appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Our company started from similar experiences finding fashion inspirations on the internet. This was the case with four to seven t-shirts any of us owned at any point in time.</p>
                         <p class="mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600">Our goal is to provide a community where you can find new fashion inspirations with the things in your closet. This is Clothing in Style - Four to Seven Tee. Or CIS 4270 for short.</p>
                     </div>
                 </div>
@@ -138,48 +138,62 @@
                 <div class="col-md-8 mx-md-auto text-center">
 
                     <h2 class="text-color-dark font-weight-normal text-5 mb-0 pt-2">Our <strong class="font-weight-extra-bold">History</strong></h2>
-                    <p>How we started, lorem ipsum dolor sit amet, consectetur adipiscing elit ac laoreet libero.</p>
+                    <p>How we started, our progress, and milestone moments.</p>
 
                     <section class="timeline" id="timeline">
                         <div class="timeline-body">
                             <div class="timeline-date">
-                                <h3 class="text-primary font-weight-bold">2018</h3>
+                                <h3 class="text-primary font-weight-bold">September</h3>
                             </div>
 
                             <article class="timeline-box left text-left appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="200">
                                 <div class="timeline-box-arrow"></div>
                                 <div class="p-2">
-                                    <img alt="" class="img-fluid" src="content/img/history/history-3.jpg" />
-                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">New Office</h3>
-                                    <p class="mb-0 text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat, ante.</p>
+                                    <img alt="" class="img-fluid" src="content/img/history/big-brain-time-1.jpg" />
+                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">Big brain time</h3>
+                                    <p class="mb-0 text-2">Assembled the team in 5 minutes. Started to big brain ideas for this website and claimed the domain name fast.</p>
                                 </div>
                             </article>
 
                             <div class="timeline-date">
-                                <h3 class="text-primary font-weight-bold">2012</h3>
+                                <h3 class="text-primary font-weight-bold">October</h3>
                             </div>
 
                             <article class="timeline-box right text-left appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="400">
                                 <div class="timeline-box-arrow"></div>
                                 <div class="p-2">
-                                    <img alt="" class="img-fluid" src="content/img/history/history-2.jpg" />
-                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">New Partners</h3>
-                                    <p class="mb-0 text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel pellentesque consequat.</p>
+                                    <img alt="" class="img-fluid" src="content/img/history/integration.jpg" />
+                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">Integration by parts</h3>
+                                    <p class="mb-0 text-2">Slowly became intellectuals with each class and assigned videos. Integrated what we learned in class and put it into our website, part by part.</p>
                                 </div>
                             </article>
 
                             <div class="timeline-date">
-                                <h3 class="text-primary font-weight-bold">2006</h3>
+                                <h3 class="text-primary font-weight-bold">November</h3>
                             </div>
 
                             <article class="timeline-box left text-left appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="600">
                                 <div class="timeline-box-arrow"></div>
                                 <div class="p-2">
-                                    <img alt="" class="img-fluid" src="content/img/history/history-1.jpg" />
-                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">Foundation</h3>
-                                    <p class="mb-0 text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum, nulla vel consequat, ante.</p>
+                                    <img alt="" class="img-fluid" src="content/img/history/flavor-town.jpg" />
+                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">"Welcome to Flavor Town"</h3>
+                                    <p class="mb-0 text-2">Things started to get spicy in November. The debugging and syntax fixing got spicy where we almost thought we were at Flavor Town.</p>
                                 </div>
                             </article>
+
+                            <div class="timeline-date">
+                                <h3 class="text-primary font-weight-bold">December</h3>
+                            </div>
+
+                            <article class="timeline-box right text-left appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="400">
+                                <div class="timeline-box-arrow"></div>
+                                <div class="p-2">
+                                    <img alt="" class="img-fluid" src="content/img/history/launch.jpg" />
+                                    <h3 class="font-weight-bold text-3 mt-3 mb-1">Launch!</h3>
+                                    <p class="mb-0 text-2">For better or worse, we demonstrated our website to the public. Launching this website should be (hopefully) for the greater good.</p>
+                                </div>
+                            </article>
+
                         </div>
                     </section>
 
@@ -223,7 +237,7 @@
                         <span class="thumb-info thumb-info-hide-wrapper-bg bg-transparent border-radius-0">
                             <span class="thumb-info-wrapper border-radius-0">
                                 <a href="about-me.html">
-                                    <img src="content/img/team/wesley.jpg" class="img-fluid border-radius-0" alt="">
+                                    <img src="content/img/team/wesleyN.jpg" class="img-fluid border-radius-0" alt="">
                                     <span class="thumb-info-title">
                                         <span class="thumb-info-inner">Wesley Nguyen</span>
                                         <span class="thumb-info-type">Validations lead</span>
